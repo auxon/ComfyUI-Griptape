@@ -178,6 +178,9 @@ from .nodes.drivers.gtUIRedisVectorStoreDriver import gtUIRedisVectorStoreDriver
 # - Voyage AI
 from .nodes.drivers.gtUIVoyageAiEmbeddingDriver import gtUIVoyageAiEmbeddingDriver
 
+# - LanceDB
+from .nodes.drivers.gtUILanceDBVectorStoreDriver import gtUILanceDBVectorStoreDriver
+
 # LOADERS
 from .nodes.loaders.gtUIFetchImage import gtUIFetchImage
 from .nodes.loaders.gtUILoadAudio import gtUILoadAudio
@@ -315,6 +318,7 @@ NODE_CLASS_MAPPINGS = {
     "Griptape Vector Store Driver: Griptape Cloud KnowledgeBase": gtUIGriptapeCloudKnowledgeBaseVectorStoreDriver,
     "Griptape Vector Store Driver: Marqo": gtUIMarqoVectorStoreDriver,
     "Griptape Vector Store Driver: MongoDB Atlas": gtUIMongoDbAtlasVectorStoreDriver,
+    "Griptape Vector Store Driver: LanceDB": gtUILanceDBVectorStoreDriver,
     "Griptape Vector Store Driver: Local": gtUILocalVectorStoreDriver,
     "Griptape Vector Store Driver: PGVector": gtUIPgVectorVectorStoreDriver,
     "Griptape Vector Store Driver: Pinecone": gtUIPineconeVectorStoreDriver,
